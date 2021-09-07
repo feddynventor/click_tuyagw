@@ -13,6 +13,9 @@ https://downloads.openwrt.org/releases/19.07.8/packages/*/packages
 - TinyTuya: https://github.com/jasonacox/tinytuya/archive/refs/tags/v1.2.8.tar.gz
 
 ## Configuration
+### Smart Life APK: https://www.apkmirror.com/wp-content/uploads/2019/10/5d9b418fbafa8/com.tuya.smartlife_3.12.6-109_minAPI16(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk?verify=1630340904-fa8cFIuDWT11Ns8qNCPfpz-8jyVns39bWIrWPagWQsY
+### Tuya Private Keys
+`cp list-app.js tuya-cli/node_modules/@tuyapi/cli/lib/list-app.js`
 `node tuya-cli/node_modules/@tuyapi/cli/cli.js`
 Risposta:
 ```
