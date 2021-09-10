@@ -7,24 +7,7 @@ db = TinyDB('db.json')
 Device = Query()
 
 #####################
-
-lastSend = 0
-lastMessage = {}
-
-def pending_packet():
-    global lastMessage
-    while True:
-        # print(len(lastMessage.items()))
-        if (lastMessage):
-            if (int(time.time()*1000) - lastMessage["timestamp"]) > 1:
-                print("PENDING",lastMessage)
-                set_light(
-                    lastMessage["dev"],
-                    lastMessage["rgb"], lastMessage["bright"], lastMessage["white"]
-                )
-                lastMessage = {}
-
-        time.sleep(1)
+# Pending packet da parte di server.py
 
 #####################
 
@@ -84,29 +67,15 @@ def set_power(dev, on=True):
         d.turn_off()
 
 def set_light(dev, rgb=None, bright=None, white=None):
-    global lastSend
+    d = tinytuya.BulbDevice(dev['id'], dev['ip'], dev['key'])
+    d.set_version(float(dev["api"]))
 
-    lastMessage["timestamp"] = int(time.time()*1000)
-
-    lastMessage["rgb"] = rgb
-    lastMessage["bright"] = bright
-    lastMessage["white"] = white
-    lastMessage["dev"] = dev
-
-    if (int(time.time()*1000) - lastSend > 800):
-        lastSend = int(time.time()*1000)
-
-        print("EXE")
-
-        d = tinytuya.BulbDevice(dev['id'], dev['ip'], dev['key'])
-        d.set_version(float(dev["api"]))
-
-        if rgb is not None:
-            d.set_colour(rgb[0],rgb[1],rgb[2])
-            db.update({"rgb":rgb}, Device.id == dev['id'])
-        if bright is not None:
-            d.set_brightness_percentage(int(bright))
-            db.update({"bright":int(bright)}, Device.id == dev['id'])
-        if white is not None:
-            d.set_white_percentage(int(white))
-            db.update({"white":int(white)}, Device.id == dev['id'])
+    if rgb is not None:
+        d.set_colour(rgb[0],rgb[1],rgb[2])
+        # db.update({"rgb":rgb}, Device.id == dev['id'])
+    if bright is not None:
+        d.set_brightness_percentage(int(bright))
+        # db.update({"bright":int(bright)}, Device.id == dev['id'])
+    if white is not None:
+        d.set_colourtemp_percentage(int(white))
+        # db.update({"white":int(white)}, Device.id == dev['id'])
