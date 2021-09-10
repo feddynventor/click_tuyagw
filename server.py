@@ -30,7 +30,7 @@ def pending_watcher():
 pending_packet = threading.Thread(target=pending_watcher, name="PendingPacket")
 pending_packet.start()
 ping_device = threading.Thread(target=commander.ping_device, name="PingDevices")
-ping_device.start()
+# ping_device.start()
 
 # import asyncio
 # import wss
@@ -107,6 +107,18 @@ def device_update(): #Inserimento da Tuya-cli
     return main.answer()
 
 
+@app.route('/api/dev/<uuid>/test', methods=['GET'])
+def device_test(uuid):
+    threading.Thread(target=lamp_device, args=db.search(Device.id==uuid), name=str(datetime.datetime.now().timestamp())).start()
+    return main.answer()
+
+def lamp_device(d):
+    commander.set_light(d, bright=100)
+    for i in range(2,10):
+        commander.set_power(d, bool(i%2==0))
+        time.sleep(0.8)
+
+    
 @app.route('/api/dev/<uuid>/<op>', methods=['POST'])
 def device_operation(uuid, op):
     global lastSend
