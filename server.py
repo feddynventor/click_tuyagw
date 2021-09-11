@@ -39,7 +39,7 @@ ping_device = threading.Thread(target=commander.ping_device, name="PingDevices")
 # App Libraries
 import datetime
 
-app = flask.Flask(__name__)
+app = flask.Flask(__name__, static_folder='gui_dashboard', static_url_path='')
 # app.config["DEBUG"] = True
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
