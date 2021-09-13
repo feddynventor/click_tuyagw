@@ -1,1 +1,250 @@
-{"_default": {"3": {"id": "bf957f7112e75c1cedxeuw", "key": "1016d5554017e8a4", "name": "giftwhole\uff08rgb\uff09", "ip": "10.0.0.17", "api": "3.3", "power": "off", "bright": 98, "rgb": [0, 22, 191], "state": "on", "white": 67, "group": "2276362905080892099"}, "4": {"id": "bfece89fc7c58881bfaem0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": "10.0.0.28", "api": "3.3", "power": "off", "rgb": [191, 0, 103], "state": "on", "white": 8, "bright": 98, "group": "70434166750730113"}, "5": {"id": "bfec5ab7a4139d7cc7pk1f", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": "10.0.0.29", "api": "3.3", "power": "off", "state": "on", "rgb": [191, 0, 103], "white": 8, "bright": 98, "group": "70434166750730113"}, "6": {"id": "bf9fd3e9354032418ec9m6", "key": "95b6af54888a7bb2", "name": "giftwhole\uff08W\uff09", "ip": null, "api": null, "group": "328921653859528460"}, "7": {"id": "bfece89fc7c58881asaem0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "8": {"id": "bfec5ab7a4139d7cgfpk1f", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "9": {"id": "bfece89fc7c58881as65m0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "10": {"id": "bfec5aba4139d7cgfd2e1f", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "11": {"id": "bfece89ft5c58881asaem0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "12": {"id": "bfec5ab7j90139dcgfpk1f", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "13": {"id": "bfece89fc7c58881as23m0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "14": {"id": "bfec5ab7a4139d7cgf9c1f", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "15": {"id": "bfece89fc7c588y7rujd", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "16": {"id": "bfec5abd89y2jdr239hdfh", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "17": {"id": "bfece89fchufhfiuhqiwdd", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "18": {"id": "bfec5an8udxn18n9vffuiq", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "19": {"id": "bfece8j89dj983oiaoiom0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "20": {"id": "bfehukjihuuihjjkslksd1", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null}, "21": {"id": "bfehhgguhihuiihuihhum0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null}, "22": {"id": "bfec59qs9s398s39m8smf1f", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "23": {"id": "bfesjjdjdjjsjjjsjsjsjm0", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "24": {"id": "bfec5ab98732n89ncqofxdc", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null}, "25": {"id": "bfecehuifehuiefhuifwwef", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "26": {"id": "bfec5ijhdiuhwiuehdued78", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}, "27": {"id": "bfkjsjdkjahskjdhasdm999", "key": "2c85d3ed288960be", "name": "Smart Bulb CA 4.5", "ip": null, "api": null, "group": "328921653859528460"}, "28": {"id": "bfec5kkkskskfy389283988", "key": "bd3a72d239517e90", "name": "Smart Bulb LA 2.10", "ip": null, "api": null, "group": "328921653859528460"}}, "groups": {"1": {"id": "2276362905080892099", "name": "Stanza 1"}, "2": {"id": "70434166750730113", "name": "Stanza 2"}, "3": {"id": "328921653859528460", "name": "Virtual"}}}
+{
+    "_default": {
+        "3": {
+            "id": "bf957f7112e75c1cedxeuw",
+            "key": "1016d5554017e8a4",
+            "name": "giftwhole（rgb）",
+            "ip": "10.0.0.17",
+            "api": "3.3",
+            "power": "off",
+            "bright": 98,
+            "rgb": [
+                0,
+                22,
+                191
+            ],
+            "state": "on",
+            "white": 67,
+            "group": "2276362905080892099"
+        },
+        "4": {
+            "id": "bfece89fc7c58881bfaem0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": "10.0.0.28",
+            "api": "3.3",
+            "power": "off",
+            "rgb": [
+                191,
+                0,
+                103
+            ],
+            "state": "on",
+            "white": 8,
+            "bright": 98,
+            "group": "70434166750730113"
+        },
+        "5": {
+            "id": "bfec5ab7a4139d7cc7pk1f",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": "10.0.0.29",
+            "api": "3.3",
+            "power": "off",
+            "state": "on",
+            "rgb": [
+                191,
+                0,
+                103
+            ],
+            "white": 8,
+            "bright": 98,
+            "group": "70434166750730113"
+        },
+        "6": {
+            "id": "bf9fd3e9354032418ec9m6",
+            "key": "95b6af54888a7bb2",
+            "name": "giftwhole（W）",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "7": {
+            "id": "bfece89fc7c58881asaem0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "8": {
+            "id": "bfec5ab7a4139d7cgfpk1f",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "9": {
+            "id": "bfece89fc7c58881as65m0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "10": {
+            "id": "bfec5aba4139d7cgfd2e1f",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "11": {
+            "id": "bfece89ft5c58881asaem0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "12": {
+            "id": "bfec5ab7j90139dcgfpk1f",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "13": {
+            "id": "bfece89fc7c58881as23m0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "14": {
+            "id": "bfec5ab7a4139d7cgf9c1f",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "15": {
+            "id": "bfece89fc7c588y7rujd",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "16": {
+            "id": "bfec5abd89y2jdr239hdfh",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "17": {
+            "id": "bfece89fchufhfiuhqiwdd",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "18": {
+            "id": "bfec5an8udxn18n9vffuiq",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "19": {
+            "id": "bfece8j89dj983oiaoiom0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "20": {
+            "id": "bfehukjihuuihjjkslksd1",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null
+        },
+        "21": {
+            "id": "bfehhgguhihuiihuihhum0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null
+        },
+        "22": {
+            "id": "bfec59qs9s398s39m8smf1f",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "23": {
+            "id": "bfesjjdjdjjsjjjsjsjsjm0",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "24": {
+            "id": "bfec5ab98732n89ncqofxdc",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null
+        },
+        "25": {
+            "id": "bfecehuifehuiefhuifwwef",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "26": {
+            "id": "bfec5ijhdiuhwiuehdued78",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "27": {
+            "id": "bfkjsjdkjahskjdhasdm999",
+            "key": "2c85d3ed288960be",
+            "name": "Smart Bulb CA 4.5",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        },
+        "28": {
+            "id": "bfec5kkkskskfy389283988",
+            "key": "bd3a72d239517e90",
+            "name": "Smart Bulb LA 2.10",
+            "ip": null,
+            "api": null,
+            "group": "328921653859528460"
+        }
+    },
+    "groups": {
+        "1": {
+            "id": "2276362905080892099",
+            "name": "Stanza 1"
+        },
+        "2": {
+            "id": "70434166750730113",
+            "name": "Stanza 2"
+        },
+        "3": {
+            "id": "328921653859528460",
+            "name": "Virtual"
+        }
+    }
+}
