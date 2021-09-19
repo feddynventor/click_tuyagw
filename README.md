@@ -9,7 +9,8 @@ https://downloads.openwrt.org/releases/19.07.8/packages/*/packages
 - Flask-CORS: https://github.com/corydolphin/flask-cors/archive/refs/tags/3.0.10.tar.gz
 - MultiPing: https://github.com/romana/multi-ping/archive/refs/tags/1.1.2.tar.gz
 - pyaes: https://github.com/ricmoo/pyaes/archive/refs/tags/v1.6.1.tar.gz
-- TinyDB: https://github.com/msiemens/tinydb/archive/refs/tags/v4.5.1.tar.gz
+- TinyDB (NO se usi Mongo): https://github.com/msiemens/tinydb/archive/refs/tags/v4.5.1.tar.gz
+- Pymongo: https://github.com/mongodb/mongo-python-driver/archive/refs/tags/3.12.0.tar.gz
 - TinyTuya: https://github.com/jasonacox/tinytuya/archive/refs/tags/v1.2.8.tar.gz
 
 ## Configuration
